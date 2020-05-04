@@ -8,7 +8,6 @@ public:
         for(int i =0;i<magazine.length();i++){
             A[magazine[i]-'a']++;
         }
-        
         for(int i=0;i<ransomNote.length();i++){
             if(A[ransomNote[i]-'a'] > 0){
                 A[ransomNote[i]-'a']--;
